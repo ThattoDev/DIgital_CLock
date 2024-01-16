@@ -30,7 +30,7 @@
 }
 
 /* Media query para dispositivos maiores */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .App {
     padding: 20px;
   }
@@ -38,4 +38,4 @@
   .App-header {
     font-size: calc(14px + 2vmin);
   }
-}
+} */

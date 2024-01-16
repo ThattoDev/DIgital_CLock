@@ -28,7 +28,11 @@ class Clock extends Component {
     /* Altera o estado da hora para uma nova hora */
     updateClock(){
         this.setState({
-            time: new Date().toLocaleTimeString()
+            time: new Date().toLocaleTimeString('pt-BR',{
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+            })
         });
     }
     render() {
