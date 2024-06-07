@@ -38,6 +38,7 @@ class Clock extends Component {
     render() {
         return (
             <div className="Time">
+                <p>SouJunior</p>
                 <p> {this.state.time}</p>
             </div>
         );
