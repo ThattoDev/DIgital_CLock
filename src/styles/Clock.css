@@ -54,3 +54,10 @@ body {
     border-radius: 15px;
     letter-spacing: 3px;
 }
+
+span {
+    width: 25px;
+    height: 50px;
+    color: pink;
+    
+}

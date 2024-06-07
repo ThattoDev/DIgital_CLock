@@ -37,10 +37,12 @@ class Clock extends Component {
     }
     render() {
         return (
-            <div className="Time">
-                <p>SouJunior</p>
-                <p> {this.state.time}</p>
-            </div>
+            <>
+                <span>SouJunior</span>
+                <div className="Time">
+                    <p> {this.state.time}</p>
+                </div>
+            </>
         );
     }
 }
